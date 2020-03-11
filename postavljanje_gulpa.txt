@@ -1,0 +1,155 @@
+PS D:\Ivana_Matkovic\Projekt> git init
+Initialized empty Git repository in D:/Ivana_Matkovic/Projekt/.git/
+PS D:\Ivana_Matkovic\Projekt> git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+PS D:\Ivana_Matkovic\Projekt> git commit -m "App init"
+[master (root-commit) 17405d7] App init
+ Committer: programer10 <programer10@ucione.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 5 files changed, 3079 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 gulpfile.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+PS D:\Ivana_Matkovic\Projekt> git remote add origin https://github.com/Zicvana/Gulp-boilerplate.git
+PS D:\Ivana_Matkovic\Projekt> git push -u origin master
+fatal: AggregateException encountered.
+   One or more errors occurred.
+Username for 'https://github.com': ivana.matkovich@gmail.com
+Password for 'https://ivana.matkovich@gmail.com@github.com':
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 24.60 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/Zicvana/Gulp-boilerplate.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+:\Ivana_Matkovic\Projekt> npm i gulp-newer
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp-newer@1.4.0
+added 10 packages from 2 contributors and audited 6401 packages in 6.262s
+found 0 vulnerabilities
+
+PS D:\Ivana_Matkovic\Projekt> npm i gulp-noop
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp-noop@1.0.0
+added 1 package from 1 contributor and audited 6413 packages in 4.888s
+found 0 vulnerabilities
+
+PS D:\Ivana_Matkovic\Projekt> npm i gulp-htmlclean
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp-htmlclean@2.7.22
+added 3 packages from 4 contributors and audited 6436 packages in 5.387s
+found 0 vulnerabilities
+
+PS D:\Ivana_Matkovic\Projekt> npm i browser-sync
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ browser-sync@2.26.7
+added 140 packages from 145 contributors and audited 9886 packages in 25.232s
+found 0 vulnerabilities
+
+PS D:\Ivana_Matkovic\Projekt> npm i gulp-sass
+
+> node-sass@4.12.0 install D:\Ivana_Matkovic\Projekt\node_modules\node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.12.0/win32-x64-64_binding.node
+Download complete  ] - :
+Binary saved to D:\Ivana_Matkovic\Projekt\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Caching binary to C:\Users\programer10\AppData\Roaming\npm-cache\node-sass\4.12.0\win32-x64-64_binding.node
+
+> node-sass@4.12.0 postinstall D:\Ivana_Matkovic\Projekt\node_modules\node-sass
+> node scripts/build.js
+
+Binary found at D:\Ivana_Matkovic\Projekt\node_modules\node-sass\vendor\win32-x64-64\binding.node
+Testing binary
+Binary is fine
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp-sass@4.0.2
+added 109 packages from 117 contributors and audited 10450 packages in 18.83s
+found 0 vulnerabilities
+PS D:\Ivana_Matkovic\Projekt> npm i gulp-concat
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp-concat@2.6.1
+added 3 packages from 38 contributors and audited 10482 packages in 7.313s
+found 0 vulnerabilities
+PS D:\Ivana_Matkovic\Projekt> npm i gulp-terser
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ gulp-terser@1.2.0
+added 7 packages from 42 contributors and audited 10511 packages in 6.759s
+found 0 vulnerabilities
+
+postavljanje na github:
+
+PS D:\Ivana_Matkovic\Projekt> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   gulpfile.js
+        modified:   package-lock.json
+        modified:   package.json
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\Ivana_Matkovic\Projekt> git add .
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+PS D:\Ivana_Matkovic\Projekt> git commit -m "Setup gulpfile.js"
+[master 9d10e0d] Setup gulpfile.js
+ Committer: programer10 <programer10@ucione.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 2238 insertions(+), 4 deletions(-)
+
+ne trebamo jos pushat, to mozemo tek na kraju kad smo gotovi sa svim
+dokle god ne komitamo ne mozemo pushati
+prvo dodamo track da se izmjene koje su napravljene u gitu trackaju
+-ako imamo lokale promjene ne mozemo pullati sa gita, prvo moramo kao svoje sve commitat al mi to ne zelimo
+-tada git pull prije nego pocnemo radit, ali ako zelimo naknadno onda svoje izmjene maknemo pa pllamo i tada opet svoje stavimo.. tada nece doc do konflikta
+
+
+PS D:\Ivana_Matkovic\Projekt> npm run-script gulp
